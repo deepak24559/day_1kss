@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        } 
+
+        body,html{
+            height: 100%;
+            width: 100%;
+            display: flex;
+                 justify-content: center;
+                 align-items: center; 
+                
+        }
+
+        .main{
+                 height: 450px;
+                 width: 400px;
+                 background: #000;
+                 border-radius: 15px;
+                   
+                   
+        }
+
+        h1{
+            color: white;
+            font-weight: 600;
+            /* align-items: center; */
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            
+        }
+        .main2{
+            display: flex;
+            flex-direction: column;
+             padding: 20px;
+              
+        
+        }
+
+        input{
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 40px;
+            padding-left: 30px;
+            background: transparent;
+            border: 4px,solid,rgb(45, 220, 45);
+        }
+
+        input:hover{
+            background-color: rgb(125, 231, 151);
+            transition: 3s;
+        }
+
+
+        button{
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 40px;
+            background: transparent;
+            border: 4px,solid,rgb(3, 103, 136);
+            color: white;
+            font-size: larger;
+            
+        }
+        button:hover{
+            background-color: rgb(30, 30, 193);
+            transition: 3s;
+        }
+
+         
+     </style>
+</head>
+<body>
+   <div class="main"> 
+      
+        <h1>Login Form Acm</h1>
+        <form class="main2">
+        <input type="text" placeholder="Email" id="">
+        <input type="password" placeholder="password" id="">
+        <button>Submit</button> 
+     </form>
+    </div>
+</body>
+</html>
